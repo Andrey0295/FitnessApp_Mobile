@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "DateApp-Mobile",
-    "slug": "DateApp-Mobile",
+    "name": "FitnessApp-Mobile",
+    "slug": "FitnessApp-Mobile",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
