@@ -3,20 +3,10 @@
  * https://reactnavigation.org/docs/typescript/
  */
 
-export type RootStackParamList = {
-  Root: undefined;
-  NotFound: undefined;
-};
+import Routes from './src/config/navigation/routes';
 
-export type BottomTabParamList = {
-  TabOne: undefined;
-  TabTwo: undefined;
-};
+const rootStack = {
+  [typeof Routes]: undefined,
+} as const;
 
-export type TabOneParamList = {
-  TabOneScreen: undefined;
-};
-
-export type TabTwoParamList = {
-  TabTwoScreen: undefined;
-};
+export type RootStackParamList = typeof rootStack;
